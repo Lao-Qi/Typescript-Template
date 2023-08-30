@@ -1,0 +1,21 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "project-decs",
+  "main": "./dist/index.js",
+  "author": "WangLaoQi",
+  "scripts": {
+    "start": "esno ./src/index.ts",
+    "dev": "esno watch ./src/index.ts",
+    "build": "tsc -p ./tsconfig.json",
+    "build:merge": "tsup",
+    "format": "npx prettier --write ."
+  },
+  "license": "MIT",
+  "readme": "./readme.md",
+  "devDependencies": {
+    "esno": "^0.17.0",
+    "prettier": "^3.0.3",
+    "tsup": "^7.2.0"
+  }
+}
